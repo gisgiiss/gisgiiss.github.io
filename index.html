@@ -1,7 +1,127 @@
 <html>
-<body>
-Buenos días!!!!!
-  
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                text-align: center;
+                font-family: cursive;
+                background: rgba(255, 138, 247,1);
+                height: 100%;
+                width: 100%;
+                overflow-y:auto;
+                margin:0;
+                padding:0;
+                
+                font-family: serif;
+                color:rgba(181, 0, 154,1);
+            }
+            
+            h1{ 
+                margin-top: 40px; 
+                margin-bottom: 10px;
+                font-size:2.5em;
+            }
+            
+            h2{
+                font-style: italic;
+                margin: 10px;
+                font-size:1.7em;
+            }
+            
+            #rsvp{
+                width:100px;
+                height:50px;
+                border:solid 3px rgba(120, 106, 16,1);
+                box-shadow: 0px 2px 10px rgba(153, 92, 0,1);
+                border-radius: 10px;
+                background: rgba(255, 255, 255,1);
+                margin:50px auto;
+                font-size:1.2em;
+                font-weight:bold;
+            }
+            
+            #line, #line2{
+                background:rgba(246, 232, 247,1);
+                color:rgba(186, 132, 24,1);
+                width: 40%;
+                position:relative;
+                height:2px;
+                border:0;
+                display:inline-block;
+            }
+            
+            #line:after{
+                content:"oOo";
+                position:absolute;
+                right:-30px;
+                top:-8.5px;
+            }
+            
+            #line{margin-right:15px;}
+            #line2{margin-left:18px;}
+            
+            .to{
+                font-size:12px;
+                margin: 0;
+            }
+            
+            #music{
+                list-style:none;
+                padding:0;
+                margin:0 auto;
+                width:80%;
+                
+            }
+            
+            #music li{
+                display:inline-block;
+                text-align:center;
+                font-size: 1.1em;
+            }
+            
+            #music li.one{
+                font-family: fantasy;
+            }
+            #music li.two{
+                font-family: Tahoma;
+            }
+            
+            .detail{
+                margin: 20px 0;
+            }
+            
+            .venue{
+                font-size: 1.4em;
+                font-weight:bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pastel_de_cumplea%C3%B1os.png/800px-Pastel_de_cumplea%C3%B1os.png" width="100%" height="120px">
+        <h1>You're invited!</h1>
+        <span class="to">to</span>
+        <h2>My Birthday in the 29 of April!</h2>
+        <hr id="line" color="#BA2"><hr id="line2" color="#BA2">
+        <div class="detail">
+            <p class="to">You are going to joy:</p>
+            <ul id="music">
+                <li class="one">Music</li>
+                <li class="two">Food</li>
+                <li class="one">Games</li>
+                <li class="two">Dance</li>
+                <li class="two">AND A LOF OF FUN</li>
+            </ul>
+            <p class="to">and many more...</p>
+        </div>
+        
+        <div class="detail">
+            <span class="venue">IN MY HOUSE</span><br>
+            <span class="venue">10PM</span>
+        </div>
+        
+       
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sprinkles2.jpg/273px-Sprinkles2.jpg" width="100%" height="120px">
+    </body>
 </html>
